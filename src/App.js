@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-<p> 이승은 </p>
+<p> 이승은 이승은 </p>
   );
 }
 
