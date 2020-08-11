@@ -1,10 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Button, Progress} from 'semantic-ui-react'
 
 function App() {
   return (
-<p> 이승은 이승은 </p>
+    <div>
+    <p> 이승은입니다 </p>
+    <Button Primary> hi </Button>
+    <Progress percent = {33} indicating/>
+    </div>
   );
 }
 
